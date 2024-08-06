@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './i18n';  // 引入 i18n 配置
+import { BaiduApiKey, BaiduAppId } from './config';
 import Chat from './Chat';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <button onClick={() => changeLanguage('en')}>English</button>
       <button onClick={() => changeLanguage('zh')}>中文</button>
       <h1>{t('welcome')}</h1>
-      <Chat />
+      <Chat BaiduApiKey={BaiduApiKey} BaiduAppId={BaiduAppId}/>
     </div>
   );
 }

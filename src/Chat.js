@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { login, sendMessage } from "./api"; // 导入 API 相关函数
-import { BaiduApiKey, BaiduAppId } from './config';
 
-console.log("apkkey", BaiduApiKey);
-console.log("appid", BaiduAppId);
 const Chat = ({ BaiduApiKey, BaiduAppId }) => {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState("");

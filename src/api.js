@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'https://qianfan.baidubce.com/v2/app';
+const BASE_URL = '/baidu';
 
 // 登录并获取 conversation_id
 export const login = async (appId, apiKey) => {
