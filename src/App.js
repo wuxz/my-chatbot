@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 import { useTranslation } from 'react-i18next';
 import './i18n';  // 引入 i18n 配置
 import { BaiduApiKey, BaiduAppId } from './config';
