@@ -1,3 +1,6 @@
+This is a demo project, using React and Nginx to provide basic online customer AI service, including text and voice.
+I will use Baidu service as AI service provider, and use Agora as WebRTC service provider.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
